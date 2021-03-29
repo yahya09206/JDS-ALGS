@@ -8,12 +8,16 @@ public class Arrays {
 		System.out.println(myIntArray[8]);
 
 		//Init using for loop
-		int[] myIntArray2 = new int[10];
+		int[] myIntArray2 = new int[25];
 		for(int i = 0; i < myIntArray2.length; i++){
 			myIntArray2[i] = i * 10;
 		}
-		for(int i = 0; i < myIntArray2.length; i++){
-			System.out.println("Element " + i + ", value is " + myIntArray2[i]);
+		printArray(myIntArray2);
+	}
+
+	public static void printArray(int[] array) {
+		for(int i = 0; i < array.length; i++){
+			System.out.println("Element " + i + ", value is " + array[i]);
 		}
 	}
 }
