@@ -7,6 +7,7 @@ public class Arrays2 {
 		for(int i = 0; i < myIntegers.length; i++){
 			System.out.println("Element " + i + ", typed value was " + myIntegers[i]);
 		}
+		System.out.println("The average is " + getAverage(myIntegers));
 	}
 
 	public static int[] getIntegers(int number){
@@ -17,5 +18,14 @@ public class Arrays2 {
 			values[i] = scanner.nextInt();
  		}
  		return values;
+	}
+	//Method to get average
+	public static double getAverage(int[] array){
+		int sum = 0;
+		for(int i = 0; i < array.length; i++){
+			sum += array[i];
+		}
+		//Divide sum by length
+		return (double) sum / (double) array.length;
 	}
 }
