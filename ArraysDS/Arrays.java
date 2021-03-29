@@ -9,10 +9,10 @@ public class Arrays {
 
 		//Init using for loop
 		int[] myIntArray2 = new int[10];
-		for(int i = 0; i < 10; i++){
+		for(int i = 0; i < myIntArray2.length; i++){
 			myIntArray2[i] = i * 10;
 		}
-		for(int i = 0; i < 10; i++){
+		for(int i = 0; i < myIntArray2.length; i++){
 			System.out.println("Element " + i + ", value is " + myIntArray2[i]);
 		}
 	}
