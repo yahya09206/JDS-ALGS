@@ -5,8 +5,14 @@ public class Challenge {
 	public static void main(String[] args){
 		
 	}
-	public static int[] getIntegers(int number){
-
+	public static int[] getIntegers(int numbers){
+		System.out.println("Enter " + numbers + " integer values.\r");
+		int[] values = new int[numbers];
+		//Loop through numbers and return int
+		for(int i = 0; i < values.length; i++){
+			values[i] = scanner.nextInt();
+		}
+		return values;
 	}
 
 	public static void printArray(){
