@@ -52,7 +52,7 @@ public class Bank {
 	}
 
 	public double withdrawFunds(double withdrawalAmount){
-		if(balance <= 0){
+		if(withdrawalAmount > balance){
 			System.out.println("there are insufficient funds");
 			return this.balance;
 		}else {

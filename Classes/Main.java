@@ -11,5 +11,7 @@ public class Main {
 		System.out.println(john.getBalance());
 		john.depositFunds(10.0);
 		System.out.println(john.getBalance());
+		john.withdrawFunds(140);
+		System.out.println(john.getBalance());
 	}
 }
