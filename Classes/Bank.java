@@ -20,6 +20,14 @@ public class Bank {
 		this.phoneNumber 	= phoneNumber;
 	}
 
+	// Constructor with some default values
+	public Bank(String name, String email, String phoneNumber){
+		this(99999, 100.55, name, email, phoneNumber);
+		// this.name = name;
+		// this.email = email;
+		// this.phoneNumber = phoneNumber;
+	}
+
 	public int getAccountNumber(){
 		return this.accountNumber;
 	}

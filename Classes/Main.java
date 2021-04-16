@@ -17,5 +17,10 @@ public class Main {
 		System.out.println(john.getBalance());
 		john.withdrawFunds(110);
 		john.withdrawFunds(140);
+
+		Bank timsBank = new Bank("Tim", "Tim@emai.com", "12345");
+		System.out.println(timsBank.getAccountNumber() + " name " + timsBank.getName());
+
+		// Constructor Challenge
 	}
 }
