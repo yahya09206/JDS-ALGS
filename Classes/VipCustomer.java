@@ -12,4 +12,10 @@ public VipCustomer {
 	public VipCustomer(double creditLimit, double name){
 		this("johnny@email.com", creditLimit, name);
 	}
+
+	public VipCustomer(double creditLimit, String name, String emailAddress){
+		this.creditLimit 	= creditLimit;
+		this.name 			= name;
+		this.emailAddress 	= emailAddress;
+	}
 }
