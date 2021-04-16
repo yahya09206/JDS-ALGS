@@ -53,11 +53,11 @@ public class Bank {
 
 	public double withdrawFunds(double withdrawalAmount){
 		if(withdrawalAmount > balance){
-			System.out.println("there are insufficient funds for the withdrawal amount of " + withdrawalAmount);
+			System.out.println("There are insufficient funds for the withdrawal amount of " + withdrawalAmount);
 			return this.balance;
 		}else {
 			balance -= withdrawalAmount;
-			System.out.println("New balance = $" + balance);
+			System.out.println("Withdrawal of " + withdrawalAmount + " processed. New balance = $" + balance);
 			return this.balance;
 		}
 	}
