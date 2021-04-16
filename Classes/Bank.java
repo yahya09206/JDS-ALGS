@@ -5,7 +5,7 @@ public class Bank {
 	private String 	email;
 	private String 	phoneNumber;
 
-	//Constructor for the fields
+	//Constructor for the fields, setters aren't need if constructors are used
 	public Bank() {
 		this(56789, 2.50, "default name", "default email", "default phone");
 		System.out.println("Empty Constructor Called");
