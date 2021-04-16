@@ -1,4 +1,4 @@
-public VipCustomer {
+public class VipCustomer {
 
 	private double creditLimit;
 	private String name;
@@ -9,8 +9,8 @@ public VipCustomer {
 		System.out.println("Empty Constructor Called.");
 	}
 
-	public VipCustomer(double creditLimit, double name){
-		this("johnny@email.com", creditLimit, name);
+	public VipCustomer(double creditLimit, String name){
+		this(creditLimit, name, "johnny@email.com");
 	}
 
 	public VipCustomer(double creditLimit, String name, String emailAddress){

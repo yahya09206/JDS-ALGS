@@ -22,6 +22,14 @@ public class Main {
 		System.out.println(timsBank.getAccountNumber() + " name " + timsBank.getName());
 
 		// Constructor Challenge
-		
+		VipCustomer person1 = new VipCustomer();
+		System.out.println(person1.getName());
+
+		VipCustomer person2 = new VipCustomer(25000.00, "Bob");
+		System.out.println(person2.getName());
+
+		VipCustomer person3 = new VipCustomer(100.00, "Bob", "Bob@email.com");
+		System.out.println(person3.getName());
+		System.out.println(person3.getEmailAddress());
 	}
 }
