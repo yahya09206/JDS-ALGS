@@ -34,4 +34,8 @@ public class Wall {
 	public void setHeight(double height){
 		this.width = width;
 	}
+
+	public double getArea(){
+		return width * height;
+	}
 }
