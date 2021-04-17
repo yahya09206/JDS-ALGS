@@ -18,4 +18,20 @@ public class Wall {
 			this.height = height;
 		}
 	}
+
+	public Double getWidth(){
+		return this.width;
+	}
+
+	public Double getHeight(){
+		return this.height;
+	}
+
+	public void setWidth(double width){
+		this.width = width;
+	}
+
+	public void setHeight(double height){
+		this.width = width;
+	}
 }
