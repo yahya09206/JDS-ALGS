@@ -10,4 +10,20 @@ public class Point {
 		this.x = x;
 		this.y = y;
 	}
+
+	public int getX(){
+		return this.x;
+	}
+
+	public int getY(){
+		return this.y;
+	}
+
+	public void setX(int x){
+		return this.x;
+	}
+
+	public void sexY(int y){
+		return this.y;
+	}
 }
