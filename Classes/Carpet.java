@@ -2,7 +2,7 @@ public class Carpet {
 
 	private double cost;
 
-	public Class(double cost){
+	public Carpet(double cost){
 		if(cost < 0){
 			this.cost = 0;
 		}else {
@@ -13,7 +13,4 @@ public class Carpet {
 	public double getCost(){
 		return this.cost;
 	}
-
-	
-
 }

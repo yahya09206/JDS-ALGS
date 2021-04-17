@@ -17,7 +17,7 @@ public class Floor {
 	}
 
 	public double getArea(){
-		return width * length
+		return width * length;
 	}
 
 }
