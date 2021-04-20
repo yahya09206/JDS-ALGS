@@ -5,9 +5,9 @@ public class Dog extends Animal {
 	private int tail;
 	private int teeth;
 	private String coat;
-	
-	public Dog(String name, int brain, int body, int size, int weight){
+
+	public Dog(String name, int size, int weight){
 		//Super calls constructor from class we are inherting from
-		super(name, brain, body, size, weight);
+		super(name, 1, 1, size, weight);
 	}
 }
