@@ -33,4 +33,12 @@ public class Vehicle {
 		return this.size;
 	}
 
+	public int getVelocity(){
+		return this.currentVelocity;
+	}
+
+	public int getDirection(){
+		return this.currentDirection;
+	}
+
 }
