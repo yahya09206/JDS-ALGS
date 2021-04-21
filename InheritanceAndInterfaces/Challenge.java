@@ -3,5 +3,6 @@ public class Challenge {
 
 		Outlander outlander = new Outlander(36);
 		outlander.accelerate(30);
+		outlander.accelerate(20);
 	}
 }
