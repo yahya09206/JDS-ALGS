@@ -33,11 +33,11 @@ public class Vehicle {
 		return this.size;
 	}
 
-	public int getVelocity(){
+	public int getCurrentVelocity(){
 		return this.currentVelocity;
 	}
 
-	public int getDirection(){
+	public int getCurrentDirection(){
 		return this.currentDirection;
 	}
 
