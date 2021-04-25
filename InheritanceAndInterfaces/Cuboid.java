@@ -1,4 +1,4 @@
-public class Cubiod {
+public class Cuboid extends Rectangle{
 
 	private double height;
 
@@ -9,5 +9,13 @@ public class Cubiod {
 		}else {
 			this.height = height;
 		}
+	}
+
+	public double getHeight(){
+		return this.height;
+	}
+
+	public double getVolume(){
+		return getArea() * height;
 	}
 }
