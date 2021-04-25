@@ -15,4 +15,16 @@ public class Rectangle {
 			this.length = 0;
 		}
 	}
+
+	public double getWidth(){
+		return this.width;
+	}
+
+	public double getLength(){
+		return this.length;
+	}
+
+	public double getArea(){
+		return width * length;
+	}
 }
