@@ -3,7 +3,7 @@ public class PC {
 	private Monitor monitor;
 	private MotherBoard motherBoard;
 
-	public PC(Case case, Monitor monitor, MotherBoard motherBoard){
+	public PC(Case theCase, Monitor monitor, MotherBoard motherBoard){
 		this.theCase = theCase;
 		this.monitor = monitor;
 		this.motherBoard = motherBoard;

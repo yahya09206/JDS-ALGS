@@ -10,7 +10,7 @@ public class MotherBoard {
 		this.manufacturer = manufacturer;
 		this.ramSlots = ramSlots;
 		this.cardSlots = cardSlots;
-		this.bio = bios;
+		this.bios = bios;
 	}
 
 	public void loadProgram(String programName){

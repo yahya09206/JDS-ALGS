@@ -17,7 +17,4 @@ public class Dimensions {
 		return this.height;
 	}
 
-	public int getWidth(){
-		return this.width;
-	}
 }

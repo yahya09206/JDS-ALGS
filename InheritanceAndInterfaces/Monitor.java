@@ -24,10 +24,10 @@ public class Monitor {
 	}
 
 	public int getSize(){
-		return this.getSize;
+		return this.size;
 	}
 
-	public int getNativeResolution(){
+	public Resolution getNativeResolution(){
 		return this.nativeResolution;
 	}
 
