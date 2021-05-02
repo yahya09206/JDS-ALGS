@@ -4,5 +4,12 @@ public class Monitor {
 	private int size;
 	private Resolution nativeResolution;
 
-	public Monitor(String)
+	public Monitor(String model, String manufacturer, int size, Resolution nativeResolution){
+		this.model = model;
+		this.manufacturer = manufacturer;
+		this.size = size;
+		this.nativeResolution = nativeResolution;
+	}
+
+	
 }
