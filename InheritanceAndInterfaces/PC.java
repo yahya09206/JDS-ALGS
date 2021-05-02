@@ -3,21 +3,21 @@ public class PC {
 	private Monitor monitor;
 	private MotherBoard motherBoard;
 
-	public PC(Case theCase, Monitor monitor, MotherBoard motherBoard){
+	private PC(Case theCase, Monitor monitor, MotherBoard motherBoard){
 		this.theCase = theCase;
 		this.monitor = monitor;
 		this.motherBoard = motherBoard;
 	}
 
-	public Case getTheCase(){
+	private Case getTheCase(){
 		return this.theCase;
 	}
 
-	public Monitor getMonitor(){
+	private Monitor getMonitor(){
 		return this.monitor;
 	}
 
-	public MotherBoard getMotherBoard(){
+	private MotherBoard getMotherBoard(){
 		return this.motherBoard;
 	}
 }
