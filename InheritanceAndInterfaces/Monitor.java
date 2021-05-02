@@ -15,5 +15,20 @@ public class Monitor {
 		System.out.println("Drawing pixel at " + x + ", " + y + " in color" + color);
 	}
 
-	
+	public String getModel(){
+		return this.model;
+	}
+
+	public String getManufacturer(){
+		return this.manufacturer;
+	}
+
+	public int getSize(){
+		return this.getSize;
+	}
+
+	public int getNativeResolution(){
+		return this.nativeResolution;
+	}
+
 }
