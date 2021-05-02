@@ -5,5 +5,7 @@ public class Main2 {
 		Case theCase = new Case("220b", "Dell", "240", dimensions);
 
 		Monitor theMonitor = new Monitor("27inch Beast", "Acer", 27, new Resolution(2540, 1440));
+
+		MotherBoard theMotherBoard = new MotherBoard("BJ-200", "Asus", 4, 6, "v2.44");
 	}
 }
