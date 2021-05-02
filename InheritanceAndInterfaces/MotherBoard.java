@@ -12,4 +12,10 @@ public class MotherBoard {
 		this.cardSlots = cardSlots;
 		this.bio = bios;
 	}
+
+	public void loadProgram(String programName){
+		System.out.println("Program " + programName + " is now loading...");
+	}
+
+	
 }
