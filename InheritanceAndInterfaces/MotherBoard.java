@@ -17,5 +17,23 @@ public class MotherBoard {
 		System.out.println("Program " + programName + " is now loading...");
 	}
 
-	
+	public String getModel(){
+		return this.model;
+	}
+
+	public String getManufacturer(){
+		return this.manufacturer;
+	}
+
+	public int getRamSlots(){
+		return this.ramSlots;
+	}
+
+	public int getCardSlots(){
+		return this.cardSlots;
+	}
+
+	public String getBios(){
+		return this.bios;
+	}
 }
