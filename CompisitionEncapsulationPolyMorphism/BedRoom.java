@@ -1,14 +1,14 @@
 public class BedRoom {
 	private String name;
-	private Wall1 wall1;
-	private Wall2 wall2;
-	private Wall3 wall3;
-	private Wall4 wall4;
+	private Wall wall1;
+	private Wall wall2;
+	private Wall wall3;
+	private Wall wall4;
 	private Ceiling ceiling;
 	private Bed bed;
 	private Lamp lamp;
 
-	public Bedroom(String name, Wall1 wall1, Wall2 wall2, Wall3 wall3, Wall4 wall4, Ceiling ceiling, Bed bed, Lamp lamp){
+	public BedRoom(String name, Wall wall1, Wall wall2, Wall wall3, Wall wall4, Ceiling ceiling, Bed bed, Lamp lamp){
 		this.name = name;
 		this.wall1 = wall1;
 		this.wall2 = wall2;

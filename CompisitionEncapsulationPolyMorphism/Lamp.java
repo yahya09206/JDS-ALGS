@@ -17,7 +17,7 @@ public class Lamp {
 		return this.style;
 	}
 
-	public boolean getBattery(){
+	public boolean isBattery(){
 		return this.battery;
 	}
 
