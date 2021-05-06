@@ -17,5 +17,23 @@ public class Bed {
 		System.out.println("Bed -> Making");
 	}
 
-	
+	public String getStyle(){
+		return this.style;
+	}
+
+	public int getPillows(){
+		return this.pillows;
+	}
+
+	public int getHeight(){
+		return this.height;
+	}
+
+	public int getSheets(){
+		return this.sheets;
+	}
+
+	public int getQuilt(){
+		return this.quilt;
+	}
 }
