@@ -22,4 +22,9 @@ public class BedRoom {
 	public Lamp getLamp(){
 		return this.lamp;
 	}
+
+	public void makeBed(){
+		System.out.println("Bedroom -> Making bed");
+		bed.make();
+	}
 }
