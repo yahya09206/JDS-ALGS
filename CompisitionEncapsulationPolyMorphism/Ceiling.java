@@ -6,4 +6,12 @@ public class Ceiling {
 		this.height = height;
 		this.paintedColor = paintedColor;
 	}
+
+	public int getHeight(){
+		return this.height;
+	}
+
+	public int getPaintedColor(){
+		return this.paintedColor;
+	}
 }
