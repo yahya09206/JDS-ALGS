@@ -12,4 +12,16 @@ public class Lamp {
 	public void turnOn(){
 		System.out.println("Lamp -> Turning on");
 	}
+
+	public String getStyle(){
+		return this.style;
+	}
+
+	public boolean getBattery(){
+		return this.battery;
+	}
+
+	public int getGlobRating(){
+		return this.globRating;
+	}
 }
