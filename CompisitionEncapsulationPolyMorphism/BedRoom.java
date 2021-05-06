@@ -19,4 +19,7 @@ public class BedRoom {
 		this.lamp = lamp;
 	}
 
+	public Lamp getLamp(){
+		return this.lamp;
+	}
 }
