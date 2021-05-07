@@ -25,7 +25,5 @@ public class Main3 {
 		System.out.println("Pages printed was " + pagesPrinted + " new total print count for printer = " + printer.getPagesPrinted());
 		pagesPrinted = printer.printPages(2);
 		System.out.println("Pages printed was " + pagesPrinted + " new total print count for printer = " + printer.getPagesPrinted());
-		
-
 	}
 }
