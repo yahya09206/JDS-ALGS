@@ -15,16 +15,14 @@ public class Printer {
 	}
 
 	public int addToner(int tonerAmount){
-		if(tonerLevel > 0){
-			if(tonerAmount > 0 && tonerAmount <= 100){
-				if(this.tonerLevel + tonerAmount > 100){
-					return -1;
-				}
-				this.tonerLever += tonerAmount;
-				return this.tonerLevel;
-			}else {
-				return -1;
+		if(tonerAmount > 0 && tonerAmount <= 100){
+			if(this.tonerLevel + tonerAmount > 100){
+			return -1;
 			}
+			this.tonerLevel += tonerAmount;
+			return this.tonerLevel;
+		}else {
+				return -1;
 		}
 	}
 
