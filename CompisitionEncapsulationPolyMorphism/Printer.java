@@ -37,4 +37,8 @@ public class Printer {
 		this.numOfPages += pagesToPrint;
 		return pagesToPrint;
 	}
+
+	public int getPagesPrinted(){
+		return this.numOfPages;
+	}
 }
