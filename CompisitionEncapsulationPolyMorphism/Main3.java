@@ -18,5 +18,10 @@ public class Main3 {
 		//Instance of Enhanced Player Class
 		EnhancedPlayer player = new EnhancedPlayer("Kim", 200, "Sword");
 		System.out.println("Remaining health = " + player.getHealth());
+
+		Printer printer = new Printer(50, true);
+		System.out.println("initial page count = " + printer.getPagesPrinted());
+		int pagesPrinted = printer.printPages(4);
+		System.out.println("Pages printed was " + pagesPrinted + " new total print count for printer = " + printer.getPagesPrinted());
 	}
 }
