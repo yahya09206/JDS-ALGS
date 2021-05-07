@@ -8,6 +8,10 @@ class Movie {
 	public String plot() {
 		return "No plot here";
 	}
+
+	public String getName(){
+		return this.name;
+	}
 }
 
 class Jaws extends Movie {
@@ -65,7 +69,9 @@ public class Main4 {
 		//For loop to go through options
 		for(int i = 1; i < 11; i++){
 			Movie movie = randomMovie();
-			System.out.println()
+			System.out.println("Movie #" + i +
+							 " : " + movie.getName() + "\n" +
+							 "Plot: " + movie.plot() + "\n");
 		}
 	}
 
