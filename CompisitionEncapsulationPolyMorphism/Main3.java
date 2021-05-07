@@ -14,5 +14,9 @@ public class Main3 {
 		// player.health = 200;
 		// player.loseHealth(damage);
 		// System.out.println("Remaining health = " + player.healthRemaining());
+
+		//Instance of Enhanced Player Class
+		EnhancedPlayer player = new EnhancedPlayer("Kim", 200, "Sword");
+		System.out.println("Remaining health = " + player.getHealth());
 	}
 }
