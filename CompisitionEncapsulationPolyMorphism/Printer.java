@@ -13,4 +13,10 @@ public class Printer {
 		this.isDuplex = isDuplex;
 		this.numOfPages = 0;
 	}
+
+	public int addToner(int tonerAmount){
+		if(tonerLevel > 0){
+			
+		}
+	}
 }
