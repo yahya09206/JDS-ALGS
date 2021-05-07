@@ -20,9 +20,15 @@ public class Printer {
 				if(this.tonerLevel + tonerAmount > 100){
 					return -1;
 				}
+				this.tonerLever += tonerAmount;
+				return this.tonerLevel;
 			}else {
 				return -1;
 			}
 		}
+	}
+
+	public int printPages(int pages){
+		
 	}
 }
