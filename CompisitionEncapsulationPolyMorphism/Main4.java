@@ -62,7 +62,11 @@ class Forgetable extends Movie {
 //Main Method
 public class Main4 {
 	public static void main(String[] args){
-
+		//For loop to go through options
+		for(int i = 1; i < 11; i++){
+			Movie movie = randomMovie();
+			System.out.println()
+		}
 	}
 
 	public static Movie randomMovie(){
