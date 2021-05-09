@@ -115,5 +115,10 @@ public class Main5 {
 		System.out.println(ford.accelerate());
 		System.out.println(ford.brake());
 
+		Holden holden = new Holden(6, "ford Falcon");
+		System.out.println(holden.startEngine());
+		System.out.println(holden.accelerate());
+		System.out.println(holden.brake());
+
 	}
 }
