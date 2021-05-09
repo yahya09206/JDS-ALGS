@@ -54,7 +54,26 @@ class Mitsubishi extends Car {
 	}
 }
 
+class Ford extends Car {
+	public Ford(int cylinders, String name){
+		super(cylinders, name);
+	}
 
+	@Override
+	public String startEngine(){
+		return "Ford -> startEngine()";
+	}
+
+	@Override
+	public String accelerate(){
+		return "Ford -> accelerate()";
+	}
+
+	@Override
+	public String brake(){
+		return "Ford -> brake()";
+	}
+}
 
 
 
@@ -102,6 +121,11 @@ public class Main5 {
 		System.out.println(mitsubishi.startEngine());
 		System.out.println(mitsubishi.accelerate());
 		System.out.println(mitsubishi.brake());
+
+		Ford ford = new Ford(6, "Ford Falcon");
+		System.out.println(ford.startEngine());
+		System.out.println(ford.accelerate());
+		System.out.println(ford.brake());
 
 	}
 }
