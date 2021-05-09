@@ -8,8 +8,19 @@ public class Car {
 	public Car(int cylinders, String name){
 		this.cylinders = cylinders;
 		this.name = name;
-		
+		this.wheels = 4;
+		this.engine = true;
 	}
+
+	public int getCylinders(){
+		return this.cylinders;
+	}
+
+	public String getName(){
+		return this.name;
+	}
+
+	
 
 }
 
