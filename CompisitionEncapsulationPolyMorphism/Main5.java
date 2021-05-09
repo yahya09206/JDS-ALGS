@@ -31,7 +31,12 @@ public class Car {
 	public String brake(){
 		return "Car -> brake()";
 	}
+}
 
+class Mitsubishi extends Car {
+	public Mitsubishi(int cylinders, String name){
+		super(cylinders, name);
+	}
 }
 
 //Main Class
