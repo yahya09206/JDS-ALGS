@@ -3,8 +3,8 @@ public class Main {
 
 		// System.out.println("10,000 at 2% interest = " + calculateInterest(10000.0, 2.0));
 
-		for(int i = 1; i <= 5; i++){
-			System.out.println("10,000 at " + i + "% interest = " + calculateInterest(10000.0, i));
+		for(int i = 1; i <= 10; i++){
+			System.out.println("10,000 at " + i + "% interest = " + String.format("%.2f", calculateInterest(10000.0, i)));
 		}
 	}
 
